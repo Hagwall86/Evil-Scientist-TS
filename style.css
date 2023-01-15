@@ -1,0 +1,83 @@
+
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.the-form {
+    display: grid;
+    padding: 10px;
+    grid-template-rows: auto;
+    border: solid 5px black;
+    border-top-right-radius:90px ;
+    border-bottom-right-radius:20px ;
+    border-bottom-left-radius:90px ;
+    border-top-left-radius:20px ;
+}
+
+
+#nameInp {
+    width: 150px;
+}
+
+#ageInp {
+    width: 100px;
+}
+
+#hench {
+    width: 100px;
+}
+
+input {
+    border: solid 2px black;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:90px ;
+    border-bottom-left-radius:90px ;
+    border-top-left-radius:90px ;
+}
+
+textarea {
+    margin: 5px;
+    border: solid 2px black;
+    width: 250px;
+}
+
+.cardSection {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    border: solid 5px black;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    border-bottom-left-radius:50px ;
+    border-top-left-radius:50px ;
+}
+
+.cards {
+
+    width: 100px;
+    height: 150px;
+    margin: 30px;
+    background: blue;
+    border-radius: 20px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    box-shadow: 0 15px 0 green;
+    inset: 0 -15px 0 rgba(255, 0, 0, 0.25) , 0 45px 0 rgba(0,0,0,0.15);
+}
+
+
+.infoSection {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: solid 5px black;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:90px ;
+    border-bottom-left-radius:20px ;
+    border-top-left-radius:90px ;
+}
